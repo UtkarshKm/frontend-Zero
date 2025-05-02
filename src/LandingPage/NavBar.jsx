@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 function NavBar() {
 	return (
@@ -6,69 +7,62 @@ function NavBar() {
 			<div className="container">
 				<nav className="navbar navbar-expand-lg border-bottom py-3">
 					<div className="container-fluid px-0">
-						<a
+						<Link
 							className="navbar-brand"
-							href="#"
+							to="/"
 						>
 							<img
 								src="media\images\logo.svg"
 								alt="logo"
 								className="w-25"
 							/>
-						</a>
-						<button
-							className="navbar-toggler"
-							type="button"
-							data-bs-toggle="collapse"
-							data-bs-target="#navbarSupportedContent"
-						>
-							<span className="navbar-toggler-icon"></span>
-						</button>
+						</Link>
+
 						<div
 							className="collapse navbar-collapse"
 							id="navbarSupportedContent"
 						>
 							<ul className="navbar-nav me-auto mb-2 mb-lg-0">
 								<li className="nav-item mx-2">
-									<a
+									<Link
 										className="nav-link active"
 										aria-current="page"
-										href="#"
+										to="/"
 									>
 										Home
-									</a>
+									</Link>
 								</li>
 								<li className="nav-item mx-2">
-									<a
+									<Link
 										className="nav-link active"
-										href="#"
+										to="/products"
 									>
 										Products
-									</a>
+									</Link>
 								</li>
 								<li className="nav-item mx-2">
-									<a
+									<Link
 										className="nav-link active"
-										href="#"
+										to="/pricing"
 									>
 										Pricing
-									</a>
+									</Link>
 								</li>
 								<li className="nav-item mx-2">
-									<a
+									<Link
 										className="nav-link active"
-										href="#"
+										to="/support"
 									>
 										Support
-									</a>
+									</Link>
 								</li>
 								<li className="nav-item mx-2">
-									<a
+									<Link
 										className="nav-link active"
-										href="#"
+										to="/signup"
 									>
 										Sign Up
-									</a>
+									</Link>
 								</li>
 							</ul>
 						</div>
