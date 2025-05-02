@@ -2,8 +2,8 @@ import React from "react";
 
 function Awards() {
 	return (
-		<>
-			<div className="container mt-5">
+		<div className="my-5">
+			<div className="container mt-10">
 				<div className="row ml-5 mr-5">
 					<div className="col-6">
 						<img
@@ -44,7 +44,7 @@ function Awards() {
 					</div>
 				</div>
 			</div>
-		</>
+		</div>
 	);
 }
 

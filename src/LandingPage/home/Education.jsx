@@ -2,7 +2,7 @@ import React from "react";
 
 function Education() {
 	return (
-		<>
+		<div className="my-5">
 			<div className="container mt-5">
 				<div className="row ml-5 mr-5">
 					<div className="col-6">
@@ -42,7 +42,7 @@ function Education() {
 					</div>
 				</div>
 			</div>
-		</>
+		</div>
 	);
 }
 

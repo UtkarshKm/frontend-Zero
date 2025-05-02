@@ -2,7 +2,7 @@ import React from "react";
 
 function Pricing() {
 	return (
-		<>
+		<div className="my-5">
 			<div className="container mt-5">
 				<div className="row">
 					<div className="col-4">
@@ -36,7 +36,7 @@ function Pricing() {
 					</div>
 				</div>
 			</div>
-		</>
+		</div>
 	);
 }
 
