@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Hero() {
 	return (
@@ -15,18 +16,20 @@ function Hero() {
 						Online platform to invest in stocks, derivatives, mutual funds,
 						ETFs, bonds, and more.
 					</p>
-					<button
-						type="button"
-						className="btn btn-primary btn-lg my-3"
-						style={{
-							width: "200px", 
-							margin: "0 auto",
-							padding: "12px 24px",
-							fontSize: "1.2rem"
-						}}
-					>
-						Sign Up for free
-					</button>
+					<Link to="/signup">
+						<button
+							type="button"
+							className="btn btn-primary btn-lg my-3"
+							style={{
+								width: "200px", 
+								margin: "0 auto",
+								padding: "12px 24px",
+								fontSize: "1.2rem"
+							}}
+						>
+							Sign Up for free
+						</button>
+					</Link>
 				</div>
 			</div>
 		</div>
