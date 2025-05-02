@@ -8,7 +8,7 @@ function Footer() {
 				<div className="row mb-4">
 					{/* First column with logo and social icons */}
 					<div className="col-md-3 mb-4">
-						<img src="media/images/logo.svg" alt="Logo" className="mb-3" style={{ width: "120px" }} />
+						<img src="media/images/logo.svg" alt="Logo" className="mb-3" style={{ width: "150px" }} />
 						<p className="text-muted small">© 2010 - 2025, Stock Trading App.<br />All rights reserved.</p>
 						<div className="d-flex gap-3 mt-3">
 							<a href="#" className="text-secondary"><i className="fa-brands fa-x-twitter"></i></a>
