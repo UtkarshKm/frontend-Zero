@@ -35,6 +35,14 @@ function NavBar() {
 								<li className="nav-item mx-2">
 									<Link
 										className="nav-link active"
+										to="/about"
+									>
+										About
+									</Link>
+								</li>
+								<li className="nav-item mx-2">
+									<Link
+										className="nav-link active"
 										to="/products"
 									>
 										Products
